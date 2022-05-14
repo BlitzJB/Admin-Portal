@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header__title {
+  background-color: #fafafa;
+}
+
+.enquiry__container > div {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  position:relative;
+}
+
+.specific-enquiry-container {
+  position: relative;
+  width: fit-content
+}
+
+.specific-enquiry {
+  width: 100%;
+}
+
+.mantine-Checkbox-root input:checked {
+  padding-bottom: 20px;
+}
+
+.enquiry__container > div button {
+  position: absolute;
+  top: 0; right: 0;
+}
+
+.result__container {
+  width: 100%;
+}
+
+.result__container pre {
+  width: 100%;
+  white-space: pre-wrap;
+}
+/* desktop styles */
+@media (min-width: 768px) {
+  .result__container {
+    width: 50%;
+  }
+
+  .result__container pre {
+    width: 100%;
+    white-space: pre-wrap;
+  }
+}
+
+.result__container-top-text {
+  font-size: 1.5rem;
+  font-weight: 400;
+
+}
